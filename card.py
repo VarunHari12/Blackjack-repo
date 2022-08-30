@@ -4,6 +4,9 @@ from player import Player
 
 class Card:
 
+    def __init__ (self, card_name):
+        self.card_name = card_name
+
     def player_display_card(self, card_name):
 
         print("The card you drew was " + deck.card_picker(deck.cards_in_deck))

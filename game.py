@@ -13,7 +13,7 @@ end_game = End_Game()
 deck = Deck()
     
 class Game:
-    def base_game():
+    def base_game(self):
         blackjack = Blackjack()
         card = Card()
         player = Player()
