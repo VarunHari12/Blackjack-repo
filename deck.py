@@ -8,6 +8,9 @@ class Deck:
         ]
 
 
+    def __init__ (self, cards_in_deck):
+        self.cards_in_deck = cards_in_deck
+
 
     def card_picker(self, cards_in_deck):
         
